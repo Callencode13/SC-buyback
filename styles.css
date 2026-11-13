@@ -1,0 +1,42 @@
+
+:root{--bg:#0d1620;--panel:#15222f;--line:#27394b;--text:#e6edf3;--muted:#93a6b8;--accent:#f0a33a;--accent-ink:#1a1204;--ok:#5fc6a1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#eef2f6;--panel:#fff;--line:#cfd9e3;--text:#14202c;--muted:#51647a;--accent:#b8680a;--accent-ink:#fff;--ok:#0c7a58}}
+:root[data-theme="dark"]{--bg:#0d1620;--panel:#15222f;--line:#27394b;--text:#e6edf3;--muted:#93a6b8;--accent:#f0a33a;--accent-ink:#1a1204;--ok:#5fc6a1}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3,.price{font-family:"Chakra Petch","Segoe UI",system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 18px 60px}
+header h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.1;margin:0 0 6px;font-weight:700}
+header p{margin:0;color:var(--muted);max-width:60ch}
+.search{display:flex;gap:10px;margin:24px 0 14px}
+.search input{flex:1;min-width:0;font:inherit;font-size:1.25rem;padding:16px 18px;background:var(--panel);color:var(--text);border:2px solid var(--line);border-radius:6px}
+input:focus,select:focus,button:focus-visible,textarea:focus{outline:3px solid var(--accent);outline-offset:1px}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+select,.num{font:inherit;padding:10px;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:6px;width:100%}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:20px}
+.bar label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.ledger{font-family:"Chakra Petch",sans-serif;font-size:1.05rem}
+.ledger b{color:var(--accent);font-size:1.35rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.card.on{border-left-color:var(--accent)}
+.card h3{margin:0;font-size:1.25rem}
+.maker{color:var(--muted);font-size:.9rem}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}
+.tag{font-size:.8rem;padding:2px 8px;border:1px solid var(--line);border-radius:99px;color:var(--muted)}
+.price{font-size:1.5rem;font-weight:700;margin-top:auto}
+button{font:inherit;cursor:pointer;border-radius:6px;padding:9px 12px;border:1px solid var(--line);background:transparent;color:var(--text)}
+button.main{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:500}
+button:hover{border-color:var(--accent)}
+.empty{padding:40px 0;color:var(--muted);text-align:center}
+details{margin-top:36px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+summary{cursor:pointer;font-family:"Chakra Petch",sans-serif;font-size:1.1rem}
+textarea{width:100%;min-height:130px;margin:10px 0;font:inherit;padding:10px;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:6px}
+.note{color:var(--muted);font-size:.9rem}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+
+footer{max-width:1100px;margin:0 auto;padding:0 18px 40px;color:var(--muted);font-size:.9rem}footer a{color:var(--accent)}

@@ -1,0 +1,163 @@
+[
+ {
+  "name": "Mustang Alpha",
+  "maker": "Consolidated Outland",
+  "role": "Starter",
+  "size": "Small",
+  "price": 30
+ },
+ {
+  "name": "Aurora MR",
+  "maker": "RSI",
+  "role": "Starter",
+  "size": "Small",
+  "price": 35
+ },
+ {
+  "name": "Avenger Titan",
+  "maker": "Aegis",
+  "role": "Cargo",
+  "size": "Small",
+  "price": 70
+ },
+ {
+  "name": "Arrow",
+  "maker": "Anvil",
+  "role": "Fighter",
+  "size": "Small",
+  "price": 75
+ },
+ {
+  "name": "Gladius",
+  "maker": "Aegis",
+  "role": "Fighter",
+  "size": "Small",
+  "price": 90
+ },
+ {
+  "name": "Hornet F7C",
+  "maker": "Anvil",
+  "role": "Fighter",
+  "size": "Small",
+  "price": 125
+ },
+ {
+  "name": "Sabre",
+  "maker": "Aegis",
+  "role": "Stealth fighter",
+  "size": "Small",
+  "price": 175
+ },
+ {
+  "name": "Cutlass Black",
+  "maker": "Drake",
+  "role": "Multi-role",
+  "size": "Medium",
+  "price": 110
+ },
+ {
+  "name": "Buccaneer",
+  "maker": "Drake",
+  "role": "Fighter",
+  "size": "Small",
+  "price": 110
+ },
+ {
+  "name": "Freelancer",
+  "maker": "MISC",
+  "role": "Multi-role",
+  "size": "Medium",
+  "price": 110
+ },
+ {
+  "name": "Prospector",
+  "maker": "MISC",
+  "role": "Mining",
+  "size": "Small",
+  "price": 155
+ },
+ {
+  "name": "Cutter",
+  "maker": "Drake",
+  "role": "Starter",
+  "size": "Small",
+  "price": 70
+ },
+ {
+  "name": "Corsair",
+  "maker": "Drake",
+  "role": "Exploration",
+  "size": "Medium",
+  "price": 190
+ },
+ {
+  "name": "Constellation Andromeda",
+  "maker": "RSI",
+  "role": "Multi-role",
+  "size": "Large",
+  "price": 240
+ },
+ {
+  "name": "Constellation Taurus",
+  "maker": "RSI",
+  "role": "Cargo",
+  "size": "Large",
+  "price": 175
+ },
+ {
+  "name": "Vanguard Warden",
+  "maker": "Aegis",
+  "role": "Heavy fighter",
+  "size": "Medium",
+  "price": 275
+ },
+ {
+  "name": "Eclipse",
+  "maker": "Aegis",
+  "role": "Stealth bomber",
+  "size": "Medium",
+  "price": 275
+ },
+ {
+  "name": "Redeemer",
+  "maker": "Aegis",
+  "role": "Gunship",
+  "size": "Medium",
+  "price": 350
+ },
+ {
+  "name": "Reclaimer",
+  "maker": "Aegis",
+  "role": "Salvage",
+  "size": "Large",
+  "price": 400
+ },
+ {
+  "name": "Caterpillar",
+  "maker": "Drake",
+  "role": "Cargo",
+  "size": "Large",
+  "price": 295
+ },
+ {
+  "name": "MOLE",
+  "maker": "ARGO",
+  "role": "Mining",
+  "size": "Large",
+  "price": 205
+ },
+ {
+  "name": "Carrack",
+  "maker": "Anvil",
+  "role": "Exploration",
+  "size": "Large",
+  "price": 600
+ },
+ {
+  "name": "Hammerhead",
+  "maker": "Aegis",
+  "role": "Gunship",
+  "size": "Large",
+  "price": 725
+ }
+]

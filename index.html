@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Buy-Back Finder for Star Citizen</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Find your buy-back ship</h1>
+<p>Search your buy-back store by ship name, maker, or job. Add the ships you want to a list and see your total credit.</p>
+</header>
+
+<div class="search"><input id="q" type="search" placeholder="Try: cargo, Drake, or Cutlass" aria-label="Search ships" autocomplete="off"></div>
+
+<div class="filters">
+<label class="f">Maker<select id="maker"><option value="">All makers</option></select></label>
+<label class="f">Role<select id="role"><option value="">All roles</option></select></label>
+<label class="f">Size<select id="size"><option value="">All sizes</option><option>Small</option><option>Medium</option><option>Large</option><option>Capital</option></select></label>
+<label class="f">Max price (USD)<input id="max" class="num" type="number" min="0" step="5" placeholder="No limit"></label>
+<label class="f">Sort by<select id="sort"><option value="name">Name</option><option value="lo">Price, low to high</option><option value="hi">Price, high to low</option></select></label>
+</div>
+
+<div class="bar">
+<span id="count" aria-live="polite"></span>
+<label><input id="mine" type="checkbox"> Show only my buy-back list</label>
+<span class="ledger">List total <b id="total">$0</b></span>
+</div>
+
+<div id="grid" class="grid"></div>
+
+<details>
+<summary>Import your own buy-back list</summary>
+<p class="note">The sample prices below are approximate. For exact numbers, open your buy-back page on the RSI site and paste one ship per line as <b>Name, price</b>, for example: <i>Cutlass Black, 110</i>. Ships not in the sample list are added automatically. Your list is saved in this browser only.</p>
+<textarea id="paste" placeholder="Cutlass Black, 110&#10;Freelancer MAX, 135&#10;Carrack, 600"></textarea>
+<div class="row"><button class="main" id="imp">Add to my list</button><button id="clear">Clear my list</button></div>
+<p id="msg" class="note" aria-live="polite"></p>
+</details>
+</div>
+
+<script src="app.js"></script>
+<footer>Unofficial fan tool, not affiliated with Cloud Imperium Games or RSI. <a href="about.html">About, privacy, and data sources</a></footer>
+</body>
+</html>
